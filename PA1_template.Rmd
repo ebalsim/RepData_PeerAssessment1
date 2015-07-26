@@ -1,6 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 
-## Loading and preprocessing the data
+## Loading the data
 ```{r loaddata}
 unzip(zipfile="activity.zip")
 data <- read.csv("activity.csv")
